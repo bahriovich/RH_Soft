@@ -1,0 +1,54 @@
+
+
+:host {
+    .mat-icon{
+        vertical-align: middle;
+        margin-right: 20px;
+    }
+    .profile-card {
+        text-align: center;
+        padding: 0 20px 20px 20px;
+        img{
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%  ;
+        }
+    }
+}
+
+.menu-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1rem;
+  }
+
+  .name {
+    margin-top: 8px;
+    font-weight: normal;
+  }
+  
+  .designation {
+    margin-top: 2px;
+    font-size: 0.7rem;
+    color: lightgrey;
+  }
+
+mat-divider {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+mat-nav-list {
+    margin: 16px;
+    width: 260px;
+    border-right: none;
+    background: rgb(196, 50, 82);
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+  }
+  

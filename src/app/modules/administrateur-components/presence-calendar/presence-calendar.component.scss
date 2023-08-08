@@ -1,0 +1,24 @@
+.fc-view-container *, .fc-view-container *:before, .fc-view-container *:after {
+    box-sizing: content-box;
+    font-size: 16px;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    font-size: 24px;
+}
+.btnnote{
+    background-color: #160038;
+    margin-left: 35%; 
+    width: 30%;
+    height: 35px;
+    border-radius: 5px 5px;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+}
+

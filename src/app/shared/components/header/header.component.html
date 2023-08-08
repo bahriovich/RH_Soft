@@ -1,0 +1,37 @@
+<mat-toolbar class="color" > 
+    <mat-toolbar-row>
+        <button mat-icon-button (click)="toggleSideBar()" >
+            <mat-icon class="pink-color">menu</mat-icon>
+        </button>
+
+        <span class="white-color" > <mat-icon>eco</mat-icon>RH Soft</span>
+
+        <div fxFlex fxLayout="row" fxLayoutAlign="flex-end">
+            <ul fxLayout="row" fxLayoutGap="20px">
+                <li>
+                    <button mat-icon-button>
+                        <mat-icon class="white-color">settings</mat-icon>
+                    </button>
+                </li>
+                <li>
+                    <button mat-icon-button>
+                        <mat-icon class="white-color">help-outline</mat-icon>
+                    </button>
+                </li>
+                <li>
+                    <button mat-button [matMenuTriggerFor]="menu">
+                        <mat-icon class="white-color">person-outline</mat-icon>
+                    </button>
+                    <mat-menu #menu="matMenu">
+                        <button mat-menu-item>
+                            <mat-icon>exit_to_app</mat-icon>
+                            sign_out
+                        </button>
+                    </mat-menu>
+                </li>
+            </ul>
+
+        </div>
+
+    </mat-toolbar-row>
+</mat-toolbar>

@@ -1,0 +1,45 @@
+.my-container{
+    margin-top: 200px;
+    max-width: 500px;
+  
+  }
+  
+  .title h2{
+    color: white;
+  }
+  
+  
+  .nb-3{
+    margin: 15px;
+  }
+  .title{
+    background-color: #160038;
+  }
+  .title .card-body h2{
+    margin: auto;
+  }
+  .card{
+    width: calc(120% - 10px);
+  }
+  
+  .btn btn-outline-success{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  /* css nav */
+  mat-toolbar {
+    background: #160038;
+    color: white;
+  
+  }
+  
+  .log-out-b{
+    background-color:rgba(196, 50, 82);
+    color: white;
+    }
+    .spacer{
+      flex: 1 1 auto;
+    }
+  
